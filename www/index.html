@@ -157,7 +157,7 @@
     
     // ボタンの初期設定
     function init(){
-        $('#Start').prop('disabled', false);
+        $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
         
@@ -179,7 +179,7 @@
     }
     
     // ButtonAがクリックされた時の処理
-    function StartClick(e){
+    function btnAClick(e){
         active = true;
          startTime = new Date();
 
@@ -228,7 +228,7 @@
     <div id="remain">Remaining time</div>
     <div id="time">Time</div>
     <button id="btnA">Start</button>  
-    <button id="btnB">ButtonB</button>  
+    <button id="btnB">Stop</button>  
     <button id="btnC">ButtonC</button>  
     <input type="number" id="minute" value=3 >
     <input type="number" id="second" value=0 >
