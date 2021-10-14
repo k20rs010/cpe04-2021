@@ -16,6 +16,9 @@ button{
 #remain{
   font-weight: bold;
 }
+#time{
+  box-shadow: 5px 5px 5px;
+}
 
 
     #minuteStr {
